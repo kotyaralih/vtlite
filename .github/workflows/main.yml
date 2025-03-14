@@ -1,6 +1,6 @@
 name: Build VTosters Lite
  
- on:
+on:
    push:
      branches:
        - '*'
