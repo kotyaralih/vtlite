@@ -1,3 +1,20 @@
+name: Build VTosters Lite
+ 
+ on:
+   push:
+     branches:
+       - '*'
+     paths-ignore:
+       - '**.md'
+   pull_request:
+     types:
+       - opened
+       - synchronize
+       - reopened
+     paths-ignore:
+       - '**.md'
+ 
+   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,6 +57,8 @@ jobs:
         run: |
           java -jar scripts/apksigner.jar sign --ks scripts/debug.keystore --ks-key-alias androiddebugkey --ks-pass pass:android smali/VTLite.apk
           java -jar scripts/apksigner.jar verify smali/VTLite.apk
+        env:
+          ANDROID_NDK_HOME: ${{ env.ANDROID_SDK_ROOT }}/ndk/25.2.9519653
                       
       - name: Upload apk to artifact
         uses: actions/upload-artifact@v4
