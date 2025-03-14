@@ -27,7 +27,7 @@ import java.util.Arrays;
 
 import static com.vk.core.network.Network.ClientType.CLIENT_API;
 
-public class MediaFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class MediaFragment extends MaterialPreferenceToolbarFragment {
     public static void download(Context ctx) {
         EditText input = new EditText(ctx);
         input.setTextColor(ThemesUtils.getTextAttr());

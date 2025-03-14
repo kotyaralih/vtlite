@@ -22,7 +22,7 @@ import ru.vtosters.lite.utils.AndroidUtils;
 import ru.vtosters.lite.utils.LifecycleUtils;
 import ru.vtosters.lite.utils.NavigatorUtils;
 
-public class ThemesFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class ThemesFragment extends MaterialPreferenceToolbarFragment {
 
     @Override
     public void onCreate(Bundle bundle) {

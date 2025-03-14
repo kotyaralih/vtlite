@@ -16,7 +16,7 @@ import ru.vtosters.lite.ssfs.UsersList;
 import ru.vtosters.lite.ui.activities.VKAdminTokenActivity;
 import ru.vtosters.lite.utils.*;
 
-public class OtherFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class OtherFragment extends MaterialPreferenceToolbarFragment {
     private static final int VK_ADMIN_TOKEN_REQUEST_CODE = 1;
 
     @Override

@@ -15,7 +15,7 @@ import ru.vtosters.lite.utils.NavigatorUtils;
 import java.util.Arrays;
 import java.util.List;
 
-public class MessagesFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class MessagesFragment extends MaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

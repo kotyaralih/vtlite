@@ -16,7 +16,7 @@ import java.util.Set;
 
 import static ru.vtosters.lite.utils.AndroidUtils.sendToast;
 
-public class FeedFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class FeedFragment extends MaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

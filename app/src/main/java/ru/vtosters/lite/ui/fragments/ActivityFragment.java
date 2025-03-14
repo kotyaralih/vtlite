@@ -7,7 +7,7 @@ import ru.vtosters.hooks.other.Preferences;
 
 import static ru.vtosters.hooks.other.Preferences.offline;
 
-public class ActivityFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class ActivityFragment extends MaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

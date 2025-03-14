@@ -13,7 +13,7 @@ import com.vtosters.lite.NetworkProxyPreferences;
 import com.vtosters.lite.R;
 import com.vtosters.lite.ViewUtils;
 
-public class ProxySettingsFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class ProxySettingsFragment extends MaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

@@ -19,7 +19,7 @@ import java.util.List;
 
 import static ru.vtosters.sponsorpost.utils.FiltersPreferences.*;
 
-public class SponsorPostFragment extends TrackedMaterialPreferenceToolbarFragment {
+public class SponsorPostFragment extends MaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
