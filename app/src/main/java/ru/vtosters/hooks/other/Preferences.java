@@ -34,6 +34,8 @@ public class Preferences {
         ProxyUtils.setProxy();
         VTVerifications.load(application);
         LifecycleUtils.registerActivities(application);
+
+        AnalyticsHelper.start(application);
     } // VK Init
 
     public static String getBuildName() {

@@ -18,7 +18,7 @@ import ru.vtosters.lite.ui.PreferenceFragmentUtils;
 import ru.vtosters.lite.ui.components.IconManager;
 import ru.vtosters.lite.utils.AndroidUtils;
 
-public class IconsFragment extends MaterialPreferenceToolbarFragment {
+public class IconsFragment extends TrackedMaterialPreferenceToolbarFragment {
     @SuppressLint("SetTextI18n")
     public static void callSelectDialog(Context ctx, String appicon) {
         var defname = Preferences.getPreferences().getString("appname", "vt");

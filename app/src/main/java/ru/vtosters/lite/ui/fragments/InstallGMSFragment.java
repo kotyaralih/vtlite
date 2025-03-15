@@ -7,7 +7,7 @@ import com.vk.core.dialogs.alert.VkAlertDialog;
 import com.vtosters.lite.R;
 import ru.vtosters.lite.utils.AndroidUtils;
 
-public class InstallGMSFragment extends MaterialPreferenceToolbarFragment {
+public class InstallGMSFragment extends TrackedMaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

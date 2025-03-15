@@ -15,7 +15,7 @@ import ru.vtosters.lite.utils.VersionReader;
 
 import static ru.vtosters.hooks.GmsHook.isSpoofPackageInstalled;
 
-public class SystemInfo extends MaterialPreferenceToolbarFragment {
+public class SystemInfo extends TrackedMaterialPreferenceToolbarFragment {
 
     @Override
     public void onCreate(Bundle bundle) {

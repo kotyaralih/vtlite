@@ -10,7 +10,7 @@ import ru.vtosters.lite.utils.AndroidUtils;
 import ru.vtosters.lite.utils.LifecycleUtils;
 import ru.vtosters.lite.utils.NavigatorUtils;
 
-public class InterfaceFragment extends MaterialPreferenceToolbarFragment {
+public class InterfaceFragment extends TrackedMaterialPreferenceToolbarFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);

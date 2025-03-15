@@ -32,7 +32,7 @@ import java.util.concurrent.Executors;
 import static ru.vtosters.hooks.other.Preferences.getBoolValue;
 import static ru.vtosters.hooks.other.ThemesUtils.getTextAttr;
 
-public class MusicFragment extends MaterialPreferenceToolbarFragment {
+public class MusicFragment extends TrackedMaterialPreferenceToolbarFragment {
     private static final ExecutorService executor = Executors.newCachedThreadPool();
 
     @SuppressLint("DefaultLocale")

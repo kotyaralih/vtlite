@@ -53,7 +53,7 @@ import ru.vtosters.lite.utils.*;
 
 import java.util.Locale;
 
-public class VTSettings extends MaterialPreferenceToolbarFragment {
+public class VTSettings extends TrackedMaterialPreferenceToolbarFragment {
     public static String ACTION_INVALIDATE_TGS_COUNT = "com.vtosters.lite.intent.action.INVALIDATE_TGS_COUNT";
 
     BroadcastReceiver mTgsReceiver = new BroadcastReceiver() {

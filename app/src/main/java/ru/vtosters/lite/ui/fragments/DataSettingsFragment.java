@@ -32,7 +32,7 @@ import ru.vtosters.lite.utils.*;
 
 import java.io.IOException;
 
-public class DataSettingsFragment extends MaterialPreferenceToolbarFragment {
+public class DataSettingsFragment extends TrackedMaterialPreferenceToolbarFragment {
     private static final int RECOVER_ACCOUNTS = 2;
     private static final int RECOVER_SETTINGS = 1;
 
